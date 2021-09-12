@@ -1,0 +1,209 @@
+local Dahoodexploit = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Mainimage = Instance.new("ImageLabel")
+local SwagMode = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+local Faded = Instance.new("TextButton")
+local RayX = Instance.new("TextButton")
+local RayCodex = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local Comingsoon1 = Instance.new("TextButton")
+local Comingsoon2 = Instance.new("TextButton")
+local Comingsoon3 = Instance.new("TextButton")
+local Comingsoon4 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = Dahoodexploit
+Main.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Main.Position = UDim2.new(0.278637767, 0, 0.315337449, 0)
+Main.Size = UDim2.new(0, 571, 0, 300)
+Main.Active = true
+Main.Draggable = true
+
+Mainimage.Name = "Main image"
+Mainimage.Parent = Main
+Mainimage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mainimage.Size = UDim2.new(0, 571, 0, 300)
+Mainimage.Image = "http://www.roblox.com/asset/?id=2531766801"
+
+SwagMode.Name = "SwagMode"
+SwagMode.Parent = Main
+SwagMode.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+SwagMode.BackgroundTransparency = 0.200
+SwagMode.Position = UDim2.new(0.0262697022, 0, 0.0766666681, 0)
+SwagMode.Size = UDim2.new(0, 172, 0, 45)
+SwagMode.Font = Enum.Font.SourceSansBold
+SwagMode.Text = "SwagMode"
+SwagMode.TextColor3 = Color3.fromRGB(198, 255, 10)
+SwagMode.TextSize = 14.000
+SwagMode.MouseButton1Down(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+	local message = Instance.new("Message", workspace)
+	wait(1.0)
+	message.Text = "SwagMode Succesfully load!"
+	wait(2.5)
+	message:Destroy()
+end)
+
+Name.Name = "Name"
+Name.Parent = Main
+Name.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+Name.Position = UDim2.new(-0.000431030989, 0, -0.169775039, 0)
+Name.Size = UDim2.new(0, 571, 0, 50)
+Name.Font = Enum.Font.SourceSansBold
+Name.Text = "Recommended Exploit | For da hood"
+Name.TextColor3 = Color3.fromRGB(198, 255, 10)
+Name.TextSize = 14.000
+Name.TextWrapped = true
+Name.TextXAlignment = Enum.TextXAlignment.Left
+
+Faded.Name = "Faded"
+Faded.Parent = Main
+Faded.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Faded.BackgroundTransparency = 0.200
+Faded.Position = UDim2.new(0.672504365, 0, 0.0766666681, 0)
+Faded.Size = UDim2.new(0, 172, 0, 45)
+Faded.Font = Enum.Font.SourceSansBold
+Faded.Text = "Faded"
+Faded.TextColor3 = Color3.fromRGB(198, 255, 10)
+Faded.TextSize = 14.000
+Faded.MouseButton1Down(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+	wait(1.0)
+	message.Text = "Faded Succesfully load!"
+	wait(2.5)
+	message:Destroy()
+end)
+
+RayX.Name = "RayX"
+RayX.Parent = Main
+RayX.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+RayX.BackgroundTransparency = 0.200
+RayX.Position = UDim2.new(0.350262672, 0, 0.0766666681, 0)
+RayX.Size = UDim2.new(0, 172, 0, 45)
+RayX.Font = Enum.Font.SourceSansBold
+RayX.Text = "RayX"
+RayX.TextColor3 = Color3.fromRGB(198, 255, 10)
+RayX.TextSize = 14.000
+RayX.MouseButton1Down(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/urmomugly/lua-project/main/Script%26/RAYXV001'))()
+	wait(1.0)
+	message.Text = "Rayx Succesfully load!"
+	wait(2.5)
+	message:Destroy()
+end)
+
+RayCodex.Name = "RayCodex"
+RayCodex.Parent = Main
+RayCodex.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+RayCodex.BackgroundTransparency = 0.200
+RayCodex.Position = UDim2.new(0.0262697022, 0, 0.423333347, 0)
+RayCodex.Size = UDim2.new(0, 172, 0, 45)
+RayCodex.Font = Enum.Font.SourceSansBold
+RayCodex.Text = "RayCodex"
+RayCodex.TextColor3 = Color3.fromRGB(198, 255, 10)
+RayCodex.TextSize = 14.000
+RayCodex.MouseButton1Down(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+	wait(1.0)
+	message.TExt = "Raycodex Succesfully load!"
+	wait(2.5)
+	message:Destroy()
+end)
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = Main
+DarkHub.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+DarkHub.BackgroundTransparency = 0.200
+DarkHub.Position = UDim2.new(0.348511398, 0, 0.423333347, 0)
+DarkHub.Size = UDim2.new(0, 172, 0, 45)
+DarkHub.Font = Enum.Font.SourceSansBold
+DarkHub.Text = "darkhub"
+DarkHub.TextColor3 = Color3.fromRGB(198, 255, 10)
+DarkHub.TextSize = 14.000
+DarkHub.MouseButton1Down(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	wait(1.0)
+	message.TExt = "DarkHub Succesfully load!"
+	wait(2.5)
+	message:Destroy()
+end)
+
+Comingsoon1.Name = "Coming soon 1"
+Comingsoon1.Parent = Main
+Comingsoon1.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Comingsoon1.BackgroundTransparency = 0.200
+Comingsoon1.Position = UDim2.new(0.672504425, 0, 0.423333347, 0)
+Comingsoon1.Size = UDim2.new(0, 172, 0, 45)
+Comingsoon1.Font = Enum.Font.SourceSansBold
+Comingsoon1.Text = "Coming soon"
+Comingsoon1.TextColor3 = Color3.fromRGB(198, 255, 10)
+Comingsoon1.TextSize = 14.000
+wait(0.1)
+message.TExt = "Coming soon"
+wait(2.5)
+message:Destroy()
+
+Comingsoon2.Name = "Coming soon 2"
+Comingsoon2.Parent = Main
+Comingsoon2.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Comingsoon2.BackgroundTransparency = 0.200
+Comingsoon2.Position = UDim2.new(0.671248674, 0, 0.759333313, 0)
+Comingsoon2.Size = UDim2.new(0, 172, 0, 45)
+Comingsoon2.Font = Enum.Font.SourceSansBold
+Comingsoon2.Text = "Coming soon"
+Comingsoon2.TextColor3 = Color3.fromRGB(198, 255, 10)
+Comingsoon2.TextSize = 14.000
+wait(0.1)
+message.TExt = "Coming soon"
+wait(2.5)
+message:Destroy()
+
+Comingsoon3.Name = "Coming soon 3"
+Comingsoon3.Parent = Main
+Comingsoon3.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Comingsoon3.BackgroundTransparency = 0.200
+Comingsoon3.Position = UDim2.new(0.347255677, 0, 0.755999982, 0)
+Comingsoon3.Size = UDim2.new(0, 172, 0, 45)
+Comingsoon3.Font = Enum.Font.SourceSansBold
+Comingsoon3.Text = "Coming soon"
+Comingsoon3.TextColor3 = Color3.fromRGB(198, 255, 10)
+Comingsoon3.TextSize = 14.000
+wait(0.1)
+message.TExt = "Coming soon"
+wait(2.5)
+message:Destroy()
+
+Comingsoon4.Name = "Coming soon 4"
+Comingsoon4.Parent = Main
+Comingsoon4.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Comingsoon4.BackgroundTransparency = 0.200
+Comingsoon4.Position = UDim2.new(0.0250139814, 0, 0.755999982, 0)
+Comingsoon4.Size = UDim2.new(0, 172, 0, 45)
+Comingsoon4.Font = Enum.Font.SourceSansBold
+Comingsoon4.Text = "Coming soon"
+Comingsoon4.TextColor3 = Color3.fromRGB(198, 255, 10)
+Comingsoon4.TextSize = 14.000
+wait(0.1)
+message.TExt = "Coming soon"
+wait(2.5)
+message:Destroy()
+
+-- Scripts:
+
+local function JGTY_fake_script() -- Dahoodexploit.Hide gui Q 
+	local script = Instance.new('LocalScript', Dahoodexploit)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "Q" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(JGTY_fake_script)()
